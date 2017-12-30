@@ -240,7 +240,7 @@
         },
 
         initializeModal: function (id) {
-            var image = this.$elements.find(".element[data-id='" + id + "']").data('url');
+            var '/' + image = this.$elements.find(".element[data-id='" + id + "']").data('url');
 
             var $modal = $(
                 '<div class="modal elementselectormodal helper-tool" data-id="' + id + '">' +
